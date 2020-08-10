@@ -12,7 +12,7 @@ export const HeroCard = ({
     <div className="card ms-3 mt-2 animate__animated animate__backInRight" style={{maxWidth: 540}}>
       <div className="row no-gutters">
         <div className="col-md-4">
-          <img src={`../../../public/assets/heroes/${id}.jpg`} className="card-img" alt={superhero} />
+          <img src={`../../assets/heroes/${id}.jpg`} className="card-img" alt={superhero} />
         </div>
         <div className="col-md-8">
           <div className="card-body">
